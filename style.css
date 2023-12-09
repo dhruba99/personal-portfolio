@@ -52,11 +52,7 @@ body{
     font-size: 1.3rem;
     color: var(--white-color);
     font-weight: 500;
-<<<<<<< HEAD
     margin-right: 2rem;
-=======
-    margin-right: 2.2rem;
->>>>>>> 6748b82b6ea3b8af9bfabf8bf82daf3954e33e18
 }
 
 .header.sticky .navbar a{
