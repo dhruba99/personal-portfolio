@@ -18,6 +18,7 @@
     --shadow-color: rgba(255, 255, 255, 0.2);
 }
 
+
 body{
     background: var(--bg-color);
     color: var(--text-color);
@@ -268,7 +269,8 @@ nav li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 40%;
+    flex-basis: 35%;
+    height: 30rem;
     background: var(--secondry-color);
     display: flex;
     align-items: center;
@@ -276,15 +278,15 @@ nav li a:hover::after{
     border-radius: 50%;
     overflow: hidden;
     position: relative;
+    position: relative;
 }
 .about-col-1 img{
-    width: 80%;
-    height: auto;
-    display: block;
+    width: 90%;
+    border-radius: 15px;
 }
 
 .about-col-2{
-    flex-basis: 55%;
+    flex-basis: 60%;
 }
 
 .sub-title{
@@ -470,9 +472,6 @@ nav li a:hover::after{
 
 }
 /* -----------contact------------- */
-#contact{
-    padding-top: 50px;
-}
 .contact-left{
     flex-basis: 35%;
 }
