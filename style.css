@@ -17,10 +17,7 @@
     --white-color: #fdfdfd;
     --shadow-color: rgba(255, 255, 255, 0.2);
 }
-html{
-    /* font-size: 62.5%; */
-    overflow-x: hidden;
-}
+
 body{
     background: var(--bg-color);
     color: var(--text-color);
@@ -55,7 +52,11 @@ body{
     font-size: 1.3rem;
     color: var(--white-color);
     font-weight: 500;
+<<<<<<< HEAD
+    margin-right: 2rem;
+=======
     margin-right: 2.2rem;
+>>>>>>> 6748b82b6ea3b8af9bfabf8bf82daf3954e33e18
 }
 
 .header.sticky .navbar a{
@@ -271,23 +272,23 @@ nav li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 35%;
-    height: 30rem;
+    flex-basis: 40%;
     background: var(--secondry-color);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     overflow: hidden;
-
+    position: relative;
 }
 .about-col-1 img{
-    width: 90%;
-    border-radius: 15px;
+    width: 80%;
+    height: auto;
+    display: block;
 }
 
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 55%;
 }
 
 .sub-title{
@@ -355,6 +356,7 @@ nav li a:hover::after{
 }
 .services-list i,h2{
     color: var(--secondry-color);
+    size: 13px;
 }
 .services-list div{
     background: #262626;
@@ -472,6 +474,9 @@ nav li a:hover::after{
 
 }
 /* -----------contact------------- */
+#contact{
+    padding-top: 50px;
+}
 .contact-left{
     flex-basis: 35%;
 }
