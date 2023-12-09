@@ -270,7 +270,6 @@ nav li a:hover::after{
 }
 .about-col-1{
     flex-basis: 38%;
-    height: 30rem;
     background: var(--secondry-color);
     display: flex;
     align-items: center;
@@ -281,12 +280,12 @@ nav li a:hover::after{
     position: relative;
 }
 .about-col-1 img{
-    width: 88%;
+    width: 80%;
     border-radius: 15px;
 }
 
 .about-col-2{
-    flex-basis: 53%;
+    flex-basis: 55%;
 }
 
 .sub-title{
