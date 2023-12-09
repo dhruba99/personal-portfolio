@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfoilio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <br><span>Dhrubajyoti</span> Sarkar</h1>
+            <!-- <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a> -->
+
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class="fa-solid fa-code"></i>
+                    <h3 class="webd">Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>UI/UX Desiner</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class="fa-solid fa-pencil"></i>
+                    <h3>Designer</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+            <div class="home-img">
+                <img src="images/PhotoRoom-20231208_023435.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ----------------about---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutimg.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hey there, code adventurers! 👋 I'm Dhrubajyoti Sarkar, your friendly neighborhood full-stack developer on a mission to turn dreams into lines of code. My coding journey started with createing engaging and responsive Websites, and ever since, I've been riding the digital waves of full-stack development.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul style="list-style: disc;">
+                            <li><span>C/C++</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>HTML, CSS, JavaScript</span></li>
+                            <li><span>React</span></li>
+                            <li><span>AI/ML</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing UII/App interfaces</li>
+                            <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                            <li><span>Apppp Devlopment</span><br>createing Android/IOS apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                            <li><span>App Devlopment</span><br>Building Android/IOS apps</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A seasoned web designer with a love for crafting immersive online experiences. Welcome to my digital gallery, where every pixel tells a story, and every click is a journey.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Testing and performance tuning</h2>
+                    <p>Welcome to the realm where performance meets perfection! I'm Dhruba, your go-to expert for testing and performance tuning. In the ever-evolving landscape of technology, ensuring your applications not only work flawlessly but also perform optimally is my craft.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Back-end Sorcery</h2>
+                    <p>Your dedicated backend development captain, navigating the seas of data and logic to empower your digital ship. In the world of web and software development, the backend is my domain, where I craft the unseen gears and engines that power your applications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfoilo------------ -->
+    <div id="portfoilio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>DJ Keep</h3>
+                        <p>Welcome to DJ Keep, a showcase of my expertise in developing a sophisticated note-saving app designed to streamline the way users capture, organize, and access their thoughts. </p>
+                        <a href="https://dhruba99.github.io/DjKeep/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>News Guru</h3>
+                        <p>Welcome to NewsPulse, a showcase of my expertise in crafting an immersive and informative news app that delivers the latest headlines with a focus on user experience and real-time updates.</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" alt="">
+                    <div class="layer">
+                        <h3>WeatherApp</h3>
+                        <p>A cutting-edge real-time weather application, ensuring accurate and up-to-date meteorological information for users worldwide. Leveraged a robust tech stack to create a seamless user experience and provide valuable insights into current weather conditions.
+                            </p>
+                        <a href="https://dhruba99.github.io/WeatherApp/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>dhrubasarkar4436@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6294281094</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Dhruba </p>
+        </div>
+    </div>
+    <!-- -----scroll reveal----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
