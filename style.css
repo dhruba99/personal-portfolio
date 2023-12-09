@@ -269,7 +269,7 @@ nav li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 38%;
     height: 30rem;
     background: var(--secondry-color);
     display: flex;
@@ -286,7 +286,7 @@ nav li a:hover::after{
 }
 
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 55%;
 }
 
 .sub-title{
@@ -354,7 +354,6 @@ nav li a:hover::after{
 }
 .services-list i,h2{
     color: var(--secondry-color);
-    size: 13px;
 }
 .services-list div{
     background: #262626;
@@ -371,7 +370,7 @@ nav li a:hover::after{
 }
 
 .services-list div h2{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -472,6 +471,9 @@ nav li a:hover::after{
 
 }
 /* -----------contact------------- */
+#contact{
+    padding: 100px;
+}
 .contact-left{
     flex-basis: 35%;
 }
