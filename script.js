@@ -33,3 +33,11 @@ ScrollReveal().reveal('.sub-title,.home-img img', { origin: 'right' });
 // ScrollReveal().reveal('', { origin: 'top' });
 // ScrollReveal().reveal('.about-col-2', { origin: 'bottom' });
 
+// ==========active=============
+var navLinks = document.getElementsByClassName("navlink");
+function activeSec(navId){
+    for (navLink of navLinks){
+        navLink.classList.remove("active");
+    }
+    document.getElementById(navId).classList.add("active");
+}
